@@ -1337,7 +1337,7 @@ class MnistBGD(object):
         scores += np.sum(yhat == ytest)
         return scores/m_samples * 100
 
- 
+
 class MnistBGD_LS(object):
     """ Batch Gradient Descent with a simple learning schedule   """
     def __init__(self, n_x, n_h, n_y, eta = 0.1, epochs = 100, random_seed=1):
