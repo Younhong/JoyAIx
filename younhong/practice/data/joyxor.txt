@@ -1,5 +1,5 @@
 # writing a data file
-# xor data with bias - row vector style
+# xor data with bias X0 - row vector style
 # x0 x1 x2 y
 1 0 0 0
 1 0 1 1
