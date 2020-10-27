@@ -1680,9 +1680,8 @@ class NeuralNetwork():
         Z2 = np.dot(self.W2, A1)            # output layer input
         A2 = self.g(Z2)                     # output layer results
         return A2
-   
-
-
+    
+    
 class LogisticNeuron(object):
     """ implements logistic regression using cross entropy 
     Arguments:
