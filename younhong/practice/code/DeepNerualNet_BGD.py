@@ -10,6 +10,7 @@ class DeepNeuralNet_BGD(object):
             sys.exit('Use a list to list number of neurons in each layer.')
         if len(net_arch) < 3:
             sys.exit('Specify the number of neurons more than two layers.')
+                     
         self.eta = eta
         self.epochs = epochs
         self.net_arch = net_arch
